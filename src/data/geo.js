@@ -70,3 +70,5 @@ const GeoPosition = [
         positionZ: 2
     },
 ];
+
+export default GeoPosition
