@@ -4,7 +4,6 @@ import GeoPosition from '@/data/geo'
 import Plane from './Plane'
 import Circle from './Circle'
 import { GridHelper } from 'three'
-import Grid from './Grid'
 
 const handleWallClick = (sectorName) => {
     alert(`Haz hecho clic en el sector: ${sectorName}`);

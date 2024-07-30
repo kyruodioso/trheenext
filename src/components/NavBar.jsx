@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', current: true },
-  { name: 'Team', href: '#', current: false },
+  { name: 'Sectores', href: '/sector', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Calendar', href: '#', current: false },
 ]
