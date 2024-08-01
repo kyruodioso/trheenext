@@ -1,14 +1,16 @@
 'use client'
 
-import PdfToJson from '@/components/PdfToJson'
-import React from 'react'
+import React from "react";
+import Link from "next/link";
+import PdfToJson from "@/components/PdfToJson";
 
 const Dashboard = () => {
   return (
     <>
-    <PdfToJson />
-    </>
-  )
-}
+ <PdfToJson/>
 
-export default Dashboard
+    </>
+  );
+};
+
+export default Dashboard;

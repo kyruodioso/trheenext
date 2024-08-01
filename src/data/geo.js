@@ -3,7 +3,9 @@ const GeoPosition = [
         id: 1,
         name: "PC Ascensor",
         detail:[
-           { ip: '192.168.233.233',
+           { 
+            sector:"Mantenimiento",
+            ip: '192.168.233.233',
             info:'cobertura'
            }
         ],

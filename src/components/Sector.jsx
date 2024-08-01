@@ -24,7 +24,7 @@ const Sector = () => {
                   position={[wall.planePositionX, wall.planePositionY, wall.planePositionZ]}
                   rotation={[wall.rotationA, wall.rotationCentral, wall.rotationB]}
                   args={[wall.planeWide, wall.planeHeight, wall.planeLong]}
-                  onClick={() => handleWallClick(factory.sector)}
+                  onClick={() => handleWallClick(factory.sectores)}
                 />
               ))}
                 </React.Fragment>

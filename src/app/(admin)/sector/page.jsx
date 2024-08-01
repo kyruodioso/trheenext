@@ -9,14 +9,14 @@ import FactoryPlane from '@/assets/FactoryPlane'
 const Sector = () => {
   return (
     <>
-    <div className='grid grid-cols-2'>
+    <div className='grid grid-cols-2 mt-2'>
       <div className='m-2'>
-        <div className='flex justify-end'>
+        <div>
         <Dropdown/>
         </div>
         <DataList/>
       </div>
-      <div>
+      <div className='mt-4'>
      <FactoryPlane />
      </div>
      </div>
