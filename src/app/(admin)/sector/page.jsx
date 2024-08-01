@@ -2,6 +2,8 @@ import React from 'react'
 import ThreeScene from '@/components/ThreeScene'
 import DataList from '@/components/DataList'
 import Factory from '@/data/factory'
+import Dropdown from '@/components/Dropdown'
+import FactoryPlane from '@/assets/FactoryPlane'
 
 
 const Sector = () => {
@@ -9,10 +11,13 @@ const Sector = () => {
     <>
     <div className='grid grid-cols-2'>
       <div className='m-2'>
+        <div className='flex justify-end'>
+        <Dropdown/>
+        </div>
         <DataList/>
       </div>
       <div>
-     <ThreeScene/>
+     <FactoryPlane />
      </div>
      </div>
     </>
