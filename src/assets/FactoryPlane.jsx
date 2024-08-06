@@ -15,7 +15,7 @@ const FactoryPlane = (props) => {
       setColor(newColor);
 
       const target = event.target;
-      if (target.tagName === 'g') {
+      if (target.tagName === 'circle') {
         const id = target.getAttribute('id');
         router.push(`/sector/${id}`);
       }
